@@ -1,6 +1,8 @@
 #include <iostream>
+#include "Review.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    Review r("Trattoria_Reviews.txt");
+    r.ReadReview();
+
 }

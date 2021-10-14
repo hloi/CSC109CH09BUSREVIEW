@@ -13,9 +13,19 @@ int Reviewer::getRating() const {
 }
 
 void Reviewer::setUserName(const string &userName) {
-    Reviewer::userName = userName;
+    this->userName = userName;
 }
 
 void Reviewer::setRating(int rating) {
-    Reviewer::rating = rating;
+    this->rating = rating;
+}
+
+Reviewer::Reviewer() {
+    userName = "NoName";
+    rating = -1;
+}
+
+Reviewer::Reviewer(string userName, int rating) {
+    this->userName = userName;
+    this->rating = rating;
 }

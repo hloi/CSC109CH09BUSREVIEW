@@ -13,6 +13,8 @@ private:
     int rating;
 
 public:
+    Reviewer();
+    Reviewer(string userName, int rating);
     void setUserName(const string &userName);
     void setRating(int rating);
     const string &getUserName() const;

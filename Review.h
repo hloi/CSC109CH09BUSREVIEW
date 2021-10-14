@@ -12,10 +12,10 @@ using std::string;
 using std::vector;
 
 class Review {
-
+public:
     Review();
-    Review(string& filename);
-    void ReadReview(string& restaurantName);
+    Review(string filename);
+    void ReadReview();
     double CalcAvgRating();
     void ReviewersReport(string& reportName);  // save the report to a file
     void SaveReview();  // save review; isModified = false;
@@ -29,6 +29,7 @@ private:
     bool isModified;  // any changes to the file?
     double avgRating; // average of the restaurant
     string filename;
+    string restaurantName;
 };
 
 
