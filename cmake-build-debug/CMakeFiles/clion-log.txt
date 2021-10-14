@@ -1,0 +1,4 @@
+D:\CLion2021\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\hloi\CLionProjects\CSC109CH09BUSREVIEW
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/hloi/CLionProjects/CSC109CH09BUSREVIEW/cmake-build-debug

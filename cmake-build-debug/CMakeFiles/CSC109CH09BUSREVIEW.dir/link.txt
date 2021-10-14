@@ -1,0 +1,3 @@
+D:\CLion2021\bin\cmake\win\bin\cmake.exe -E rm -f CMakeFiles\CSC109CH09BUSREVIEW.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\CSC109CH09BUSREVIEW.dir/objects.a @CMakeFiles\CSC109CH09BUSREVIEW.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\CSC109CH09BUSREVIEW.dir/objects.a -Wl,--no-whole-archive -o CSC109CH09BUSREVIEW.exe -Wl,--out-implib,libCSC109CH09BUSREVIEW.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CSC109CH09BUSREVIEW.dir\linklibs.rsp
