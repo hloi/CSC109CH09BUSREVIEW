@@ -34,12 +34,12 @@ void Review::ReadReview() {
         getline(inFS, line);
 
         if (!inFS.fail()) {
+            string token;
             std::istringstream ss(line);
-
-            string userName;
-            int rating;
-            ss >> userName;
-            ss >> rating;
+            getline(ss, token, ',');
+            string userName = token;
+            getline(ss, token, ',');
+            int rating = stoi(token);
             Reviewer rv(userName, rating);
             reviewList.push_back(rv);
         }
